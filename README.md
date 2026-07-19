@@ -1,3 +1,3 @@
-# Data-Analytics-Portfolio
-Welcome to the Data Spectrum Lab. This repository showcases advanced data analytics experiments, translating complex biological data and business metrics into actionable insights using Python, SQL, and visualization tools.
-Hello! This is my experimental botany data analystics portfolio. Here, I'm documenting various projects that combine my passion for plant science with data analysis.
+# Iris Flower Data Analysis
+Project Overview : This project explores the famous Iris Flower Dataset using Microsoft Excel, SQL, Python, and Power BI. The objective is to clean, analyze, visualize, and summarize flower measurement data to identify patterns and compare different Iris species.
+Objectives : *Perform data cleaning and validation *Calculate descriptive statistics *Analyze flower characteristics by species *Create meaningful visualizations *Build an interactive Power BI dashboard *Demonstrate end-to-end data analytics skills.
