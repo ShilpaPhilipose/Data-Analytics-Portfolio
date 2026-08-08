@@ -2,7 +2,7 @@
 
 Welcome to my **Data Analytics Portfolio**.
 
-This repository showcases my hands-on data analytics work using **Microsoft Excel, SQL, and Python**. The projects demonstrate my ability to organize and validate data, perform analysis, create visualizations, and communicate meaningful findings.
+This repository showcases my hands-on data analytics work using **Microsoft Excel, SQL, and Python**. My projects focus on data cleaning, analysis, visualization, identifying patterns, and communicating meaningful findings.
 
 ---
 
@@ -10,7 +10,7 @@ This repository showcases my hands-on data analytics work using **Microsoft Exce
 
 I am an aspiring **Data Analyst** with experience in administrative operations, data handling, reporting, data validation, and documentation.
 
-I am developing my data analytics skills through practical projects using **Excel, SQL, and Python**, with a focus on transforming raw data into clear and useful insights.
+I am developing my technical data analytics skills through practical projects using **Excel, SQL, and Python**, with a focus on transforming raw data into clear and useful insights.
 
 ---
 
@@ -22,6 +22,7 @@ I am developing my data analytics skills through practical projects using **Exce
 * Data Exploration
 * Descriptive Statistics
 * Data Aggregation
+* Summary Tables
 * Data Interpretation
 * Reporting & Documentation
 
@@ -37,15 +38,15 @@ I am developing my data analytics skills through practical projects using **Exce
 
 ---
 
-# 📁 Project 1 — Iris Flower Data Analysis
+# 🌸 Project 1 — Iris Flower Data Analysis
 
 ## 📌 Project Overview
 
-This project analyzes the **Iris Flower Dataset** using Microsoft Excel and SQL, with Python used for additional analysis and visualization.
+This project analyzes the **Iris Flower Dataset** using Microsoft Excel, SQL, and Python.
 
-The project explores flower measurements across three Iris species and identifies patterns and relationships between sepal and petal measurements.
+The analysis explores measurements for three Iris species, compares sepal and petal characteristics, identifies relationships between variables, and presents findings through tables and visualizations.
 
-### 🌸 Iris Species
+### Iris Species
 
 * Iris-setosa
 * Iris-versicolor
@@ -60,17 +61,17 @@ The project explores flower measurements across three Iris species and identifie
 * Perform descriptive statistical analysis
 * Create summary tables using Excel
 * Analyze the dataset using SQL
-* Calculate averages, minimums, and maximums
-* Compare flower measurements by species
-* Create data visualizations
+* Perform additional analysis using Python
+* Compare measurements across Iris species
 * Identify relationships between petal measurements
+* Create data visualizations
 * Communicate analytical findings
 
 ---
 
 # 📊 Excel Analysis
 
-Microsoft Excel was used to organize, analyze, and visualize the Iris dataset.
+Microsoft Excel was used to organize, analyze, summarize, and visualize the Iris dataset.
 
 ### Excel Tasks
 
@@ -88,6 +89,18 @@ Microsoft Excel was used to organize, analyze, and visualize the Iris dataset.
 📁 [Iris Dashboard.xlsx](Iris%20Dashboard.xlsx)
 
 📁 [Raw Data.xlsx](Raw%20Data.xlsx)
+
+### Excel Visualizations
+
+![Iris Dashboard](Dashboard.png)
+
+![Distribution of Sepal Length](Distribution%20of%20Sepal%20Length.png)
+
+![Petal Length](Petal%20Length.png)
+
+![Sepal Length](Sepal%20Length.png)
+
+![Species Chart](species_chart.png)
 
 ---
 
@@ -144,13 +157,13 @@ ORDER BY SepalLengthCm DESC;
 
 ### SQL Files
 
-📄 [View SQL Analysis](iris_analysis.sql)
+📄 [SQL Analysis](iris_analysis.sql)
 
-📄 [View SQL Documentation](Iris%20SQL.docx)
+📄 [SQL Documentation](Iris%20SQL.docx)
 
 ---
 
-# 🐍 Python Analysis
+# Python Analysis
 
 Python was used to perform additional data analysis and visualization.
 
@@ -173,35 +186,25 @@ import pandas as pd
 import matplotlib.pyplot as plt
 ```
 
+### Complete Python Analysis
+
+📓 [Iris Python Analysis Notebook](Iris_Python_Analysis.ipynb)
+
 ---
 
-# 📈 Data Visualizations
+# 📈 Python Visualizations
 
-The project includes several visualizations created during the analysis.
+## Petal Length vs Petal Width
 
-### Iris Dashboard
+The scatter plot shows a positive relationship between petal length and petal width across the three Iris species.
 
-![Iris Dashboard](Dashboard.png)
+![Petal Length vs Petal Width](petal_length_vs_width_by_species.png)
 
-### Distribution of Sepal Length
+## Average Petal Length by Species
 
-![Distribution of Sepal Length](Distribution%20of%20Sepal%20Length.png)
+The bar chart compares the average petal length across the three Iris species.
 
-### Petal Length vs Petal Width
-
-![Petal Length vs Petal Width](Petal%20Length%20vs%20Petal%20Width.png)
-
-### Petal Length
-
-![Petal Length](Petal%20Length.png)
-
-### Sepal Length
-
-![Sepal Length](Sepal%20Length.png)
-
-### Species Distribution
-
-![Species Chart](species_chart.png)
+![Average Petal Length by Species](average_petal_length_by_species.png)
 
 ---
 
@@ -212,7 +215,6 @@ The project includes several visualizations created during the analysis.
 * **Iris-versicolor** generally falls between setosa and virginica.
 * Petal length and petal width show a clear positive relationship.
 * Petal measurements provide useful distinctions between the three Iris species.
-* The three Iris species can be visually differentiated based on their measurements.
 
 ---
 
@@ -220,9 +222,9 @@ The project includes several visualizations created during the analysis.
 
 The project uses the **Iris Flower Dataset**.
 
-📄 [View Iris Dataset](Iris%20Dataset%20from%20Kaggle.csv)
+📄 [Iris Dataset from Kaggle](Iris%20Dataset%20from%20Kaggle.csv)
 
-The dataset contains:
+### Dataset Variables
 
 * Sepal Length
 * Sepal Width
@@ -243,8 +245,8 @@ The dataset contains:
 * Data Validation
 * Data Analysis
 * Descriptive Statistics
-* Data Visualization
 * Summary Tables
+* Data Visualization
 * Data Interpretation
 * Reporting
 * GitHub
@@ -253,11 +255,11 @@ The dataset contains:
 
 # 🚀 Project Outcome
 
-This project demonstrates an end-to-end beginner-level data analytics workflow, from organizing and validating raw data to performing analysis using Excel and SQL, extending the analysis with Python, creating visualizations, and communicating key findings.
+This project demonstrates an end-to-end beginner-level data analytics workflow, from organizing and validating raw data to analyzing the dataset using Excel and SQL, extending the analysis with Python, creating visualizations, and communicating key findings.
 
 ---
 
-## 🔮 Future Projects
+# 🔮 Future Projects
 
 Additional projects will be added to this portfolio as I continue developing my skills in:
 
@@ -269,7 +271,7 @@ Additional projects will be added to this portfolio as I continue developing my 
 
 ---
 
-## 📫 Connect with me:
+## 📫 Contact
 
 **Shilpa Philipose**
 
@@ -278,3 +280,4 @@ Calgary, Alberta, Canada
 ---
 
 ⭐ Thank you for visiting my Data Analytics Portfolio!
+
