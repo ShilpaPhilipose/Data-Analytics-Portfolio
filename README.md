@@ -179,16 +179,61 @@ Python was used to perform additional data analysis and visualization.
 * Petal length and width relationship analysis
 * Data visualization
 
-### Python Libraries
+# Iris Flower Data Analysis
 
-```python
 import pandas as pd
 import matplotlib.pyplot as plt
-```
 
-### Complete Python Analysis
+# Load dataset
+df = pd.read_csv('Iris Dataset from Kaggle.csv')
 
-📓 [Iris Python Analysis Notebook](Iris_Python_Analysis.ipynb)
+# Display first rows
+df.head()
+
+# Basic information
+df.info()
+
+# Check missing values
+df.isnull().sum()
+
+# Descriptive statistics
+df.describe()
+
+# Minimum and maximum values
+df[['SepalLengthCm', 'SepalWidthCm', 'PetalLengthCm', 'PetalWidthCm']].agg(['min', 'max'])
+
+# Count flowers by species
+df['Species'].value_counts()
+
+# Average measurements by species
+df.groupby('Species')[[
+    'SepalLengthCm',
+    'SepalWidthCm',
+    'PetalLengthCm',
+    'PetalWidthCm'
+]].mean()
+
+# Average petal length
+avg_petal = df.groupby('Species')['PetalLengthCm'].mean()
+
+avg_petal.plot(kind='bar')
+plt.title('Average Petal Length by Species')
+plt.xlabel('Species')
+plt.ylabel('Average Petal Length (cm)')
+plt.xticks(rotation=0)
+plt.tight_layout()
+plt.savefig('average_petal_length_by_species.png', dpi=300, bbox_inches='tight')
+plt.show()
+
+# Final summary
+summary = df.groupby('Species')[[
+    'SepalLengthCm',
+    'SepalWidthCm',
+    'PetalLengthCm',
+    'PetalWidthCm'
+]].mean().round(2)
+
+summary
 
 ---
 
@@ -197,14 +242,15 @@ import matplotlib.pyplot as plt
 ## Petal Length vs Petal Width
 
 The scatter plot shows a positive relationship between petal length and petal width across the three Iris species.
+<img width="675" height="461" alt="image" src="https://github.com/user-attachments/assets/69ecba63-af15-40de-a69f-9ad25873af2b" />
 
-![Petal Length vs Petal Width](petal_length_vs_width_by_species.png)
 
 ## Average Petal Length by Species
 
 The bar chart compares the average petal length across the three Iris species.
 
-![Average Petal Length by Species](average_petal_length_by_species.png)
+<img width="680" height="456" alt="image" src="https://github.com/user-attachments/assets/f9245a60-ce0e-480a-8128-ae2e2d806e69" />
+
 
 ---
 
